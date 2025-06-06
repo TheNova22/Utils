@@ -49,22 +49,11 @@ The parser is currently written with the following options
 
 | Param | Param | Description | Default |
 | --- | --- | --- | --- |
-| \--input | \-i | 
-Path to the CSV file
-
-Relative to data/
-
- | None |
+| \--input | \-i | Path to the CSV file. Relative to data/ | None |
 | \--separator | \-s | Separator used in the CSV file | , |
 | \--encoding | \-e | Encoding of the CSV file | utf-8 |
 | \--rows | \-r | Number of rows to display for head/tail operations | 5 |
-| \--operations | \-o | 
-
-List of operations to be performed (order matters)
-
-Refer operation section for format and its info.
-
- | update;replace\_missing;remove\_empty;head |
+| \--operations | \-o | List of operations to be performed (order matters) | update;replace\_missing;remove\_empty;head |
 | \--op-delimiter | \-d | Delimiter for separating operations in the operations argument | ; |
 
 ### Oprations
